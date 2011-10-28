@@ -1,0 +1,35 @@
+ ******************************************************************************
+ * README                                                                     *
+ * Authors: Wolfgang Richter <wolf@cs.cmu.edu>                                *
+ *                                                                            *
+ * Description: This file contains the README for a PRNG experimentation      *
+ *              library.                                                      *
+ *                                                                            *
+ *                                                                            *
+ * All code and documentation is released under the Unlicense as specified in *
+ * the UNLICENSE file.                                                        *
+ ******************************************************************************/
+
+Table Of Contents       ..................................... [TOC]
+
+Introduction            ..................................... [INTRO-1]
+License                 ..................................... [LICEN-2]
+
+
+
+[INTRO-1] Introduction
+--------------------------------------------------------------------------------
+This library represents a collection of PRNG algorithms and my own algorithsm as
+I experiment on my own.  It was created on a whim, when Anastasia Richter asked
+me for a random number generator Fall 2011.  PRNGs are a fundamental technology
+in Computer Science, thus a deep understanding of them is desired.
+
+
+
+
+[LICEN-5] License
+--------------------------------------------------------------------------------
+This library is released under the Unlicense <www.unlicense.org>.  The terms are
+explained in UNLICENSE.  Basically, this is public domain code and
+documentation.  But it would be nice if you could cite me even if only in a
+comment within your own source.
