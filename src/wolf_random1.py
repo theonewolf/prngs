@@ -39,7 +39,7 @@ import struct
 import sys
 import time
 
-USAGE = '''%s - <number of random numbers to generate> [d6]'''
+USAGE = '''%s - <number of random numbers to generate> [d6 | b]'''
 
 
 # seed = 169743212279 --> developed with this seed
