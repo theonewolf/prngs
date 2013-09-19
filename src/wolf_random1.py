@@ -7,7 +7,7 @@
 # In fact, I bet it's horrible.  But this was just for fun.
 #
 # Author: Wolfgang Richter <wolf@cs.cmu.edu>
-# Site: github.com/theonewolf/prng
+# Site: github.com/theonewolf/prngs
 # 
 #
 # This is free and unencumbered software released into the public domain.
