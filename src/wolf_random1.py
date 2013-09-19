@@ -35,6 +35,7 @@
 #
 # For more information, please refer to <http://unlicense.org/>
 
+import struct
 import sys
 import time
 
@@ -60,7 +61,7 @@ def wolf_random1(seed):
         ret *= 17
         static_ret = ret % seed
         if ret & 0x00008000: ret += 1
-        yield ret
+        yield ret & 0xffffffff
 
 
 # provide values from 0-5; hopefully uniformly distributed
@@ -79,5 +80,11 @@ if __name__ == '__main__':
     if len(sys.argv) > 2 and sys.argv[2].lower() == 'd6':
         generator = d6(generator)
 
+    if len(sys.argv) > 2 and sys.argv[2].lower() == 'b':
+        binary = True
+
     for x in xrange(int(sys.argv[1])):
-        print generator.next()
+        if not binary:
+            print generator.next()
+        else:
+            print struct.pack('I', generator.next()),
