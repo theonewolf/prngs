@@ -88,3 +88,5 @@ if __name__ == '__main__':
             print generator.next()
         else:
             print struct.pack('I', generator.next()),
+
+    exit(0)
